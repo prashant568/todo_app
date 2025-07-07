@@ -1,0 +1,33 @@
+.main-div{
+    display: flex;
+}
+.left{
+    height: 100vh;
+    overflow-y: scroll;
+    padding-bottom: 5rem !important;
+}
+.right{
+    display: flex;
+}
+.allTask{
+    flex-grow: 1;
+}
+.ongoingTask
+{
+ flex-grow: 1;
+}
+
+.completedTask
+{
+ flex-grow: 1;
+}
+.allTask-item{
+    border-top:3px solid red ;
+}
+.ongoingTasks-item
+{
+      border-top:3px solid #ffc107;
+}
+.completedTasks-item{
+    border-top:3px solid green;
+}
